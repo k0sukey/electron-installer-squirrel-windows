@@ -15,9 +15,6 @@
     "coverage": "./node_modules/istanbul/lib/cli.js cover _mocha",
     "check": "mongodb-js-precommit"
   },
-  "precommit": [
-    "check"
-  ],
   "bin": {
     "electron-installer-squirrel-windows": "bin/electron-installer-squirrel-windows.js"
   },
